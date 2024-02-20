@@ -23,7 +23,7 @@ const Copyright: React.FC = () => {
           </a>
         </div>
         <div>
-          <p>Easy Ingressos © 2023 / Todos direitos reservados</p>
+          <p>Easy Ingressos © 2023 / Todos direitos reservados 2.0.1</p>
         </div>
         <div />
       </section>
