@@ -56,7 +56,7 @@ const RecoverPassword: React.FC = () => {
 
         await api.post('/password-reset', {
           email: formData.email,
-          redirect_url: `https://easy-ingressos.vercel.app${router.asPath}`,
+          redirect_url: `https://easyingressos.com${router.asPath}`,
         });
 
         addToast({

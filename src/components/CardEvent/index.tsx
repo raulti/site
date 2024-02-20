@@ -12,7 +12,7 @@ import ShareButton from '../ShareButton';
 import { Container } from './styles';
 
 const CardEvent: React.FC<ICardEvent> = ({ data, ...rest }) => {
-  const linkShare = `https://easy-ingressos.vercel.app/evento/`;
+  const linkShare = `https://easyingressos.com/evento/`;
 
   const formattedDate = useMemo(() => {
     if (

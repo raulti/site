@@ -18,7 +18,7 @@ interface IProps {
 }
 
 const ItemBanner: React.FC<IProps> = ({ data }) => {
-  const linkShare = `https://easy-ingressos.vercel.app/evento/`;
+  const linkShare = `https://easyingressos.com/evento/`;
 
   // const dateFormat =
   //   data?.due_date &&
